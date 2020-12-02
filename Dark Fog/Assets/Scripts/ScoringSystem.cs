@@ -10,8 +10,9 @@ public class ScoringSystem : MonoBehaviour
     public GameObject scoreText;
     public static int theScore;
 
+
     void Update()
     {
-        scoreText.GetComponent<Text>().text = "Pages Collected: " + theScore;
+        scoreText.GetComponent<Text>().text = "Crucifix: " + theScore;
     }
 }

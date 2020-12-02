@@ -22,6 +22,7 @@ using UnityEngine;
 /// </summary>
 public class OVRGrabbable : MonoBehaviour
 {
+    public AudioSource collectSound;
     [SerializeField]
     protected bool m_allowOffhandGrab = true;
     [SerializeField]
