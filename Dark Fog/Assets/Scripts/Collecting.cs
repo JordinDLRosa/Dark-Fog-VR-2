@@ -18,7 +18,7 @@ public class Collecting : MonoBehaviour
     }
     void OnTriggerExit(Collider other)
     {
-        Object.Destroy(gameObject, 1.0f);
+        Object.Destroy(gameObject, 5.0f);
         ScoringSystem.theScore += 1;
 
     }
