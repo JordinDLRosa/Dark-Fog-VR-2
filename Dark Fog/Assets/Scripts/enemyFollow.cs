@@ -22,7 +22,7 @@ public class enemyFollow : MonoBehaviour
 
         if (health <= 0)
         {
-            SceneManager.LoadScene(3);
+            SceneManager.LoadScene(4);
         }
 
     }
