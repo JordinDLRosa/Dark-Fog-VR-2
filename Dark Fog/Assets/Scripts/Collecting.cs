@@ -14,12 +14,14 @@ public class Collecting : MonoBehaviour
     void OnTriggerEnter(Collider other)
     {
             collectSound.Play();
-        Object.Destroy(gameObject, 1.0f);
+        ScoringSystem.theScore += 1;
+        Debug.Log(gameObject + "Objects Destoryed");
+
+
     }
     void OnTriggerExit(Collider other)
     {
-        Object.Destroy(gameObject, 1.0f);
-        ScoringSystem.theScore += 1;
-
+        Object.Destroy(gameObject, 0.5f);
+        
     }
 }
