@@ -2667,11 +2667,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d2db22038a6f9804598cd46453cc7cb8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.633
+      value: 0.639
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d2db22038a6f9804598cd46453cc7cb8, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 993.887
+      value: 992.596
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d2db22038a6f9804598cd46453cc7cb8, type: 3}
       propertyPath: m_LocalRotation.x
@@ -2719,7 +2719,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6500000, guid: d2db22038a6f9804598cd46453cc7cb8, type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6500000, guid: d2db22038a6f9804598cd46453cc7cb8, type: 3}
+      propertyPath: m_Size.x
+      value: 3.561077
+      objectReference: {fileID: 0}
+    - target: {fileID: 6500000, guid: d2db22038a6f9804598cd46453cc7cb8, type: 3}
+      propertyPath: m_Size.z
+      value: 1.4895321
+      objectReference: {fileID: 0}
+    - target: {fileID: 6500000, guid: d2db22038a6f9804598cd46453cc7cb8, type: 3}
+      propertyPath: m_Size.y
+      value: 1.5213109
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d2db22038a6f9804598cd46453cc7cb8, type: 3}
@@ -2776,7 +2788,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 2
 --- !u!1001 &1629636393
 PrefabInstance:
   m_ObjectHideFlags: 0
