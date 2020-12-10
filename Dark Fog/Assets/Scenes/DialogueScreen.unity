@@ -637,21 +637,12 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'Welcome to the Dark Fog VR. You''re a child stuck in limbo after
-
-    an
-    a grave sin the child committed. In this landscape enveloped in fog,
-
-    your
-    inner fears are brought to life in the after life.
-
-    This creature is hunting
-    you, preventing you from escaping limbo.
-
-    Gather the 5 crucifixes around
-    the landscape and escape
-
-    from your personal hell to the gates of heaven.'
+  m_Text: "Welcome to the Dark Fog VR. You're a child stuck in limbo after\nan a
+    grave sin the child committed. In this landscape enveloped in fog,\nyour inner
+    fears are brought to life in the after life.\nThis creature is hunting you, preventing
+    you from escaping limbo. You can \nthrow rocks to slow down the monster.\nGather
+    the 5 crucifixes around the landscape and escape\nfrom your personal hell to
+    the gates of heaven."
 --- !u!222 &1320169610
 CanvasRenderer:
   m_ObjectHideFlags: 0
