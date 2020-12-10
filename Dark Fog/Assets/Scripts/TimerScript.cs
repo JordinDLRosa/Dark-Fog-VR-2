@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class TimerScript : MonoBehaviour
 {
-    public int timeLeft = 180;
+    public int timeLeft = 300;
     public Text timer;
     void Start()
     {

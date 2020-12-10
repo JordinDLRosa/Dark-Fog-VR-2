@@ -15,8 +15,10 @@ public class throwable : MonoBehaviour
             monster.GetComponent<NavMeshAgent>().speed = 0;
             Object.Destroy(gameObject, 1.0f);
         }
+
     }
 
+  
     // Update is called once per frame
     void Update()
     {

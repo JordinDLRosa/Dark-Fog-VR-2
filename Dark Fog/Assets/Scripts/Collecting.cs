@@ -5,7 +5,7 @@ using UnityEngine;
 public class Collecting : MonoBehaviour
 {
     public AudioSource collectSound;
-    
+
     /*void Start()
     {
         gameObject.tag = "Player";
@@ -13,15 +13,17 @@ public class Collecting : MonoBehaviour
     */
     void OnTriggerEnter(Collider other)
     {
-            collectSound.Play();
+        collectSound.Play();
         ScoringSystem.theScore += 1;
+       
         Debug.Log(gameObject + "Objects Destoryed");
-
+        
 
     }
     void OnTriggerExit(Collider other)
     {
-        Object.Destroy(gameObject, 0.5f);
-        
+
+        Object.Destroy(gameObject, 2f);
+
     }
 }
