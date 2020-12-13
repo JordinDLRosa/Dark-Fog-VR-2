@@ -6,8 +6,12 @@ public class throwable : MonoBehaviour
 {
 
     public GameObject monster;
-    
+    private static int speed;
     // Start is called before the first frame update
+    /*void Update()
+    {
+        speed = Collecting.mSpeed;
+    }*/
     void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "monster")
@@ -20,7 +24,7 @@ public class throwable : MonoBehaviour
 
     void OnTriggerExit(Collider other)
     {
-        monster.GetComponent<NavMeshAgent>().speed = 30;
+        monster.GetComponent<NavMeshAgent>().speed = Collecting.mSpeed;
     }
 
     // Update is called once per frame
