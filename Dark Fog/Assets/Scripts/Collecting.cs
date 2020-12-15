@@ -8,7 +8,6 @@ public class Collecting : MonoBehaviour
     public AudioSource collectSound;
 
     public GameObject monster;
-    bool stopScore = true;
     public static int mSpeed = 15;
 
     void Start()
@@ -38,14 +37,8 @@ public class Collecting : MonoBehaviour
     void OnTriggerEnter(Collider other)
     {
         collectSound.Play();
-        if (gameObject == null)
-        {
+
             ScoringSystem.theScore += 1;
-        }
-        if(gameObject)
-        {
-            stopScore = false;
-        }    
         Debug.Log(gameObject + "Objects Destoryed");
         
 
@@ -53,6 +46,6 @@ public class Collecting : MonoBehaviour
     void OnTriggerExit(Collider other)
     {
            
-        Object.Destroy(gameObject, 0.5f);
+        Object.Destroy(gameObject, 0.1f);
     }
 }
