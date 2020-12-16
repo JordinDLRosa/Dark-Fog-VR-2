@@ -15,7 +15,7 @@ public class ScoringSystem : MonoBehaviour
 
     void Update()
     {
-        scoreText.GetComponent<Text>().text = "Crucifix: " + theScore;
+        scoreText.GetComponent<Text>().text = "Faith: " + theScore;
         if(theScore >= 1)
         {
             monster.SetActive(true);

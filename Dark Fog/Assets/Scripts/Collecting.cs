@@ -38,14 +38,14 @@ public class Collecting : MonoBehaviour
     {
         collectSound.Play();
 
+            Debug.Log(gameObject + "Collision detected");
             ScoringSystem.theScore += 1;
-        Debug.Log(gameObject + "Objects Destoryed");
+        Destroy(gameObject);
+        //Object.Destroy(gameObject, 0.5f);
+    }
+    //void OnTriggerExit(Collider other)
+    //{
         
 
-    }
-    void OnTriggerExit(Collider other)
-    {
-           
-        Object.Destroy(gameObject, 0.1f);
-    }
+    //}
 }
