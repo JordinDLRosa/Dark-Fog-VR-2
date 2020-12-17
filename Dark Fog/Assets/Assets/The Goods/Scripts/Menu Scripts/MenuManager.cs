@@ -66,10 +66,12 @@ public class MenuManager : MonoBehaviour
     public void PlayAgain()
     {
         SceneManager.LoadScene(2);
+        ScoringSystem.theScore = 0;
     }
     public void Retry()
     {
         SceneManager.LoadScene(2);
+        ScoringSystem.theScore = 0;
     }
     public void Quit()
     {
