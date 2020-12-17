@@ -8,7 +8,7 @@ using UnityEngine.UI;
 public class ScoringSystem : MonoBehaviour
 {
     public GameObject scoreText;
-    public static int theScore;
+    public static int theScore = 0;
 
     public GameObject monster;
     public GameObject doorToHeaven;
