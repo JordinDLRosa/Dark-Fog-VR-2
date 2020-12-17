@@ -65,11 +65,11 @@ public class MenuManager : MonoBehaviour
     }
     public void PlayAgain()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+        SceneManager.LoadScene(2);
     }
     public void Retry()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 2);
+        SceneManager.LoadScene(2);
     }
     public void Quit()
     {
